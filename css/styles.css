@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+  font-family: "lato","calibri";
+  font-weight: 100;
+  margin: 0;
+  background: rgb(23,25,46);
+  color: white;
+  padding-bottom: 30px;
+  transition: all 0.4s ease;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cont {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  background: rgba(250,250,250,0.2);
+  margin-bottom: 5px;
+}
+
+#cont p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#displayCont {
+  width: 1018px;
+  height: 342px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#display {
+  margin: 5px;
+  float: left;
+  padding: 1em;
+  height: 300px;
+  width: 297px;
+  background: rgba(250,250,250,0.2);
+}
+
+#display img {
+  height: 170px;
+  width: auto;
+  max-width: 292px;
+  position: absolute;
+}
+
+#display p {
+  position: absolute;
+  margin-top: 180px;
+}
+
+#display a {
+  position: absolute;
+  margin-top: 205px;
+  color: white;
+  text-decoration: none;
+  background: rgba(30,120,255,0.3);
+  padding: 0.5em;
+  width: 130px;
+  height: 20px;
+  transition: all 0.4s ease;
+}
+
+#chev {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-top: -18px;
+  line-height: 20px;
+  text-align: right;
+}
+
+#chev:hover {
+    padding-left: 5em;
+}
+
+#display a:hover {
+  width: 280px;
+}
